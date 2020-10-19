@@ -1,0 +1,19 @@
+I used this commands in Git Bash to add MSEI SIS to my empty Github repository: 
+---
+git init
+-to create a new empty repository
+---
+git add . or git add 'name of file'
+- add . adds all the files to the given directory while specifiyng name is used to add specified files
+---
+git status
+- used to see 'status' (shows which files are changed)
+---
+git commit -m 'some message'
+we use this to commit changes and -m is use 'note' about the changes
+---
+git remote add origin 'url'
+-to specify the url of repository to which our folder will be pushed
+---
+git push -u origin master
+-used to push to the 'commits'to the remote repository. 
